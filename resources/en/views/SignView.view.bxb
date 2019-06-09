@@ -1,0 +1,59 @@
+result-view {
+   match {
+     SignResult (this)
+   }
+  render{
+    layout{
+      section{
+        content{
+          if(this.sign == 'Aries' || this.sign == 'aries'){
+            image("images/aries.png")
+          }
+          else-if(this.sign == 'Aquarius' || this.sign == 'aquarius'){
+            image("images/aquarius.png")
+          }
+          else-if(this.sign == 'Cancer' || this.sign == 'cancer'){
+            image("images/cancer.png")
+          }
+          else-if(this.sign == 'Capricorn' || this.sign == 'capricorn'){
+            image("images/capricorn.jpg")
+          }
+          else-if(this.sign == 'Gemini' || this.sign == 'gemini'){
+            image("images/gemini.png")
+          }
+          else-if(this.sign == 'Leo' || this.sign == 'leo'){
+            image("images/leo.jpg")
+          }
+          else-if(this.sign == 'Libra' || this.sign == 'libra'){
+            image("images/libra.jpg")
+          }
+          else-if(this.sign == 'Pisces' || this.sign == 'pisces'){
+            image("images/pisces.png")
+          }
+          else-if(this.sign == 'Sagittarius' || this.sign == 'sagittarius'){
+            image("images/sagittarius.png")
+          }
+          else-if(this.sign == 'Scorpio' || this.sign == 'scorpio'){
+            image("images/scorpio.png")
+          }
+          else-if(this.sign == 'Taurus' || this.sign == 'taurus'){
+            image("images/taurus.png")
+          }
+          else-if(this.sign == 'Virgo' || this.sign == 'virgo'){
+            image("images/virgo.png")
+          }
+          
+  
+          
+        }
+      }
+      section{
+        content{
+          paragraph("#{value(this.description)}")
+          // "#{value(this.definition[0].text)}"
+        }
+      }
+    }
+    
+  }
+}

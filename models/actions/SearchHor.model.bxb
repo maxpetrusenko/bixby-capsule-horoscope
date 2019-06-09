@@ -1,0 +1,11 @@
+action (SearchHor) {
+  collect{
+    input (sign) {
+      type (Sign)
+      min (Required)
+      max (One)
+    }
+  } 
+  output (SignResult)
+  type (Search)
+}

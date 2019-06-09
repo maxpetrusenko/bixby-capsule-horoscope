@@ -1,0 +1,14 @@
+structure (SignResult) {
+  description (The result object produced by the RollDice action.)
+  property (description) {
+    type (Text)
+    min (Required)
+    max (One)
+  }    
+  property (sign){
+    type (viv.core.Text)
+    min (Optional)
+    max (One)
+    visibility (Private)
+  }  
+}

@@ -1,0 +1,14 @@
+vocab (Sign) {
+    "Aries" {"aries"}
+    "Taurus" {"taurus"}
+    "Gemini" {"gemini"}
+    "Cancer" {"cancer"}
+    "Leo" {"leo"}
+    "Virgo" {"virgo"}
+    "Libra" {"libra"}          
+    "Saggitarius" {"saggitarius"}          
+    "Capricorn" {"capricon"}
+    "Aquarius" {"aquarius"}
+    "Pisces" {"pisces"}     
+    "Aries" {"aries"}                    
+}

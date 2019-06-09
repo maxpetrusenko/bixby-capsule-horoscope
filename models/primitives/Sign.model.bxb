@@ -1,0 +1,15 @@
+enum (Sign) {
+    description (Names of Horoscope Signs)
+    symbol (Aries)
+    symbol (Taurus)
+    symbol (Gemini)
+    symbol (Cancer)
+    symbol (Leo)
+    symbol (Virgo)
+    symbol (Libra)
+    symbol (Scorpio)
+    symbol (Saggitarius)
+    symbol (Capricorn)
+    symbol (Aquarius)
+    symbol (Pisces)
+}

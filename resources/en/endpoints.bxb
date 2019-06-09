@@ -1,0 +1,8 @@
+endpoints {
+   action-endpoints {
+     action-endpoint (SearchHor) {
+       accepted-inputs (sign)
+       local-endpoint ("SearchHor.js")
+     }
+   }
+}
