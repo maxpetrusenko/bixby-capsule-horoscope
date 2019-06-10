@@ -1,5 +1,5 @@
 train (t-bw0qyetbm2jnegh1cehmsctih) {
-  utterance ("[g:example.horoscope.SignResult] tell me horoscope for (leo)[v:Sign:Leo]")
-  plan (Y2BmkEmtSMwtyEnVy8gvyi9Ozi9I1QvOTM8LSi0uzSlhkMYim5pYlJzhkV/EIIZdKwMTAyMQMwBJRgYQYIJgAA==)
-  last-modified (1560047552673)
+  utterance ("[g:example.dice.SignResult] tell me horoscope for (leo)[v:Sign:Leo]")
+  plan (Y2BmEE+tSMwtyEnVS8lMTtULzkzPC0otLs0pYRBDlUhNLErO8MgvYhDE0MDAxMAIxAxAkpEBBJggGAA=)
+  last-modified (1560035025164)
 }

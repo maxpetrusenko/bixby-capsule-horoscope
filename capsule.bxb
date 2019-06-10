@@ -1,5 +1,5 @@
 capsule {
-  id (example.horoscope)
+  id (example.dice)
   format (3)
   version (0.1.1)
   targets {
